@@ -1,12 +1,12 @@
-import React from 'react';
-import Button from './components/Button';
-
-
+import { LoginPage } from "./components/LoginPage";
+import { CallLogin } from "./components/CallLogin";
 
 function App() {
   return (
     <div className="App">
-      <Button/>
+        <CallLogin>
+          <LoginPage/>
+        </CallLogin>
     </div>
   );
 }
